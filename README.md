@@ -13,19 +13,25 @@ Remove comments from your code to make it more readable (sometimes)
 I had made a Neural Net in python with a lot of comments and wished to see it without them.
 
 # Adapting the script for other languages:
-* If you have a language that isn't python you have to make a few edits to the code.
-* Starting at the bottom you need to change the line:
+If you have a language that isn't python you have to make a few edits to the code.
+
+Starting at the bottom you need to change the line:
+
 ``` f = open("{}.py".format(new_filename), "w") ```
-* where it says ".py" you can change that to the extension of your choosing
-* Then on the lines:
- ```if((re.search("#", line) != None)): ```
- ```  temp_array = re.split("#", line, 1)``` 
 
-* You must change the "#" to whatever comments are in your language.
+where it says ".py" you can change that to the extension of your choosing
 
-* Then the initial
+Then on the lines:
+
+```if((re.search("#", line) != None)): ```
+```  temp_array = re.split("#", line, 1)``` 
+
+You must change the "#" to whatever comments are in your language.
+
+Then the initial
 ``` line = "#Start" ```
-* You should replace the "#" with whatever your comment is.
+
+You should replace the "#" with whatever your comment is.
 
 # Possible future plans:
 * I could just make a question as to what comments are in your language and update accordingly
