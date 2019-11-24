@@ -50,5 +50,7 @@ You should replace the "#" with whatever your comment is.
 
 For Java users (where comments are "//") don't get rid of links like: https://...
 
+Multi-Line comments?
+
 **If you have any ideas, feel free to message me: dakotapowerstech@gmail.com**
     
