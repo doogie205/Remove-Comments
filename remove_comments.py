@@ -4,16 +4,19 @@
 import os
 import re #use this to find comments mid line
 
-filename = input("What file would you like to remove comments and new lines from?\n")
+
+filename = input("What file would you like to remove comments from?\n")
 
 f = open(filename, "r")
 
-line = "#Start"
+comment_type = input("What comments does your language use?\n")
+
+line = "{}Start".format(comment_type)
 cnt = 0
 whole_file = ""
 while line:
-  if((re.search("#", line) != None)):
-    temp_array = re.split("#", line, 1)
+  if((re.search(comment_type, line) != None)):
+    temp_array = re.split(comment_type, line, 1)
     #print(temp_array)
     line = temp_array[0]
     if(line == ""):
@@ -29,12 +32,14 @@ while line:
    line = f.readline()
    cnt += 1
    
+  
+   
 #print(whole_file)
 f.close()
 
 new_filename = input("What would you like the new file to be called?\n")
 
-f = open("{}.py".format(new_filename), "w")
+f = open("{}".format(new_filename), "w")
 
 f.write(whole_file[1:len(whole_file)])
 
