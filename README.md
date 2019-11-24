@@ -44,11 +44,11 @@ You should replace the "#" with whatever your comment is.
 
 # Possible future plans:
 
-Make a question as to what comments are in users language
+~~Make a question as to what comments are in users language~~**√**
 
-Just get rid of the extension so you can save it as .whatever
+~~Just get rid of the extension so you can save it as .whatever~~**√**
 
-This is all I can forsee for this small script for now.
+For Java users (where comments are "//") don't get rid of links like: https://...
 
 **If you have any ideas, feel free to message me: dakotapowerstech@gmail.com**
     
