@@ -27,7 +27,7 @@ I had made a Neural Net in python with a lot of comments and wished to see it wi
 
 ~~Just get rid of the extension so you can save it as .whatever~~**√**
 
-~~For Java users (where comments are "//") don't get rid of links like: https://...~~
+~~For Java users (where comments are "//") don't get rid of links like: https://...~~**√**
 
 Multi-Line comments?
 
